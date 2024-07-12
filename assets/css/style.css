@@ -28,6 +28,10 @@ body {
 .contaier-fluid {
 	margin: 0;
 }
+
+.row { 
+	width: 100%;
+}
 .profile .row .col-xl-3 {
 	background-color: #BD5D38;
 	height: 100vh;
@@ -251,4 +255,240 @@ body {
 
 .awards .inner-box .box i {
 	margin-right: 5px;
+}
+
+@media (max-width: 1200px) {
+	.profile .row .col-lg-12 {
+		padding: 0;
+	}
+	.profile .row .col-xl-3 {
+		margin: 0;
+		width: 100%;
+		height: auto;
+		position: fixed;
+		z-index: 999;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.profile .row .col-xl-3 .inner-image {
+		margin: 20px 0;
+	}
+	.profile .row .col-xl-3 .inner-image img{
+		width: 60px;
+	}
+
+	.profile .row .col-xl-3 .inner-menu {
+		width: 70%;
+	}
+
+	.inner-content {
+		width: 100%;
+	}
+
+	.profile .row .col-xl-3 .inner-menu ul {
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 0;
+	}
+
+	.profile .row .col-xl-3 .inner-menu ul a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.profile .row .col-xl-3 .inner-menu ul li {
+		font-size: 24px;
+		padding: 0;
+	}
+}
+
+@media (max-width: 992px) {
+	.profile .row .col-xl-3 .inner-menu {
+		visibility: hidden;
+	}
+
+	.profile .row .col-xl-3 .inner-image {
+		position: relative;
+	}
+
+	.profile .row .col-xl-3 .inner-image::after {
+		content:"dinhviethuy";
+		color: #fff;
+		font-size: 30px;
+		position:absolute;
+		top: 10%;
+		margin-left: 10px;
+		font-weight: 600;
+	}
+}
+
+@media (max-width: 576px) {
+	.profile .row .col-xl-9 .name h2 {
+		font-size: 60px;
+	}
+
+	.profile .row .col-xl-9 .inner-contact {
+		font-size: 15px;
+	} 
+
+	.profile .row .col-xl-9 .experience .inner-title {
+		font-size: 40px;
+	}
+
+	.profile .row .col-xl-9 .experience .inner-box h2 {
+		font-size: 20px;
+	}
+
+	.profile .row .col-xl-9 .experience .inner-box h3 {
+		font-size: 18px;
+	}
+
+	.profile .row .col-xl-9 .experience .inner-box p {
+		font-size: 16px;
+	}
+
+	.profile .row .col-xl-9 .experience .inner-box .box .inner-year {
+		font-size: 14px;
+	}
+	.interests .inner-title {
+		font-size: 40px;
+	}
+
+	.interests p {
+		font-size: 16px;
+	}
+
+	.awards .inner-title {
+		font-size: 40px;
+	}
+
+	.awards .inner-box .box {
+		font-size: 20px;
+	}
+
+	.profile .row .col-xl-9 .skill .inner-title {
+		font-size: 40px;
+	}
+	.profile .row .col-xl-9 .skill .inner-tool span {
+		font-size: 25px;
+	}
+
+	.profile .row .col-xl-9 .skill .inner-social .work {
+		font-size: 25px;
+	}
+
+	.profile .row .col-xl-9 .skill .inner-social .inner-icon {
+		font-size: 16px;
+	}
+
+	.profile .row .col-xl-9 .education .inner-title {
+		font-size: 40px;
+	}
+
+	.profile .row .col-xl-9 .education .inner-box h2 {
+		font-size: 22px;
+		width: 70%;
+	}
+
+	.profile .row .col-xl-9 .education .inner-box .box .inner-year {
+		font-size: 14px;
+	}
+
+	.profile .row .col-xl-9 .inner-desc {
+		font-size: 18px;
+	}
+
+	.profile .row .col-xl-9 .inner-social a {
+		font-size: 40px;
+	}
+	.profile .row .col-xl-9 .experience .inner-box p {
+		margin: 0;
+	}
+	.profile .row .col-xl-9 .experience .inner-box .box {
+		margin-top: 15px;
+	}
+}
+
+
+@media (max-width: 400px) {
+	.profile .row .col-xl-9 .name h2 {
+		font-size: 40px;
+	}
+
+	.profile .row .col-xl-9 .inner-contact {
+		font-size: 10px;
+	} 
+
+	.profile .row .col-xl-9 .experience .inner-title {
+		font-size: 20px;
+	}
+
+	.profile .row .col-xl-9 .experience .inner-box h2 {
+		font-size: 15px;
+	}
+
+	.profile .row .col-xl-9 .experience .inner-box h3 {
+		font-size: 14px;
+	}
+
+	.profile .row .col-xl-9 .experience .inner-box p {
+		font-size: 14px;
+	}
+
+	.profile .row .col-xl-9 .experience .inner-box .box .inner-year {
+		font-size: 10px;
+	}
+	.interests .inner-title {
+		font-size: 20px;
+	}
+
+	.interests p {
+		font-size: 14px;
+	}
+
+	.awards .inner-title {
+		font-size: 20px;
+	}
+
+	.awards .inner-box .box {
+		font-size: 15px;
+	}
+
+	.profile .row .col-xl-9 .skill .inner-title {
+		font-size: 20px;
+	}
+	.profile .row .col-xl-9 .skill .inner-tool span {
+		font-size: 20px;
+	}
+
+	.profile .row .col-xl-9 .skill .inner-social .work {
+		font-size: 20px;
+	}
+
+	.profile .row .col-xl-9 .skill .inner-social .inner-icon {
+		font-size: 14px;
+	}
+
+	.profile .row .col-xl-9 .education .inner-title {
+		font-size: 20px;
+	}
+
+	.profile .row .col-xl-9 .education .inner-box h2 {
+		font-size: 20px;
+		width: 70%;
+	}
+
+	.profile .row .col-xl-9 .education .inner-box .box .inner-year {
+		font-size: 14px;
+	}
+
+	.profile .row .col-xl-9 .inner-desc {
+		font-size: 14px;
+	}
+
+	.profile .row .col-xl-9 .inner-social a {
+		font-size: 30px;
+	}
 }
