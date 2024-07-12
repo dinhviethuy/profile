@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@90;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "Saira Extra Condensed", sans-serif;
+}
+
+body {
+	margin: 0;
+}
+.profile .row {
+	display: flex;
+}
+
+.contaier-fluid {
+	margin: 0;
+}
+.profile .row .col-xl-3 {
+	background-color: #BD5D38;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+	position:sticky;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.profile .row .col-xl-3 .inner-image {
+	margin-bottom: 20px;
+}
+
+.profile .row .col-xl-3 .inner-image img {
+	width: 200px;
+	height: auto;
+	border-radius: 50%;
+	border: 5px solid #E6E3F1;
+}
+
+.profile .row .col-xl-3 .inner-menu a {
+	color: #EED6CD;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.profile .row .col-xl-3 a li {
+	padding: 5px 0;
+}
+
+.profile .row .col-xl-3 a:hover {
+	color: #fff;
+}
+
+.profile .row .col-xl-9 {
+	position:static;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 40px;
+	height: 100vh;
+}
+
+.profile .row .col-xl-9 .name h2{
+	display: inline;
+	font-weight: 800;
+	font-size: 90px;
+}
+
+.profile .row .col-xl-9 .name .lastname {
+	color:#BD5D38;
+	padding-left:6px;
+}
+
+.profile .row .col-xl-9 .inner-contact {
+	font-weight: 500;
+	font-size: 24px;
+	margin-bottom: 3rem !important;
+}
+.profile .row .col-xl-9 .inner-contact a {
+	color:#BD5D38;
+	text-transform: uppercase;
+}
+
+.profile .row .col-xl-9 .inner-desc {
+	font-size: 24px;
+	width: 70%
+}
+
+.profile .row .col-xl-9 .inner-social {
+	width: 90%;
+	display: flex;
+}
+
+.profile .row .col-xl-9 .inner-social a {
+	padding: 0 9px;
+	font-size: 60px;
+	color: #6c757d;
+}
+
+.profile .row .col-xl-9 .inner-social a:hover {
+	color:#BD5D38;
+}
+
+.profile .row .col-xl-3 .inner-menu a:focus{
+	color: #fff;
+}
+
+.profile .row .col-xl-9 .experience .inner-title {
+	font-size: 50px;
+	font-weight: 800;
+}
+
+.profile .row .col-xl-9 .experience .inner-box .box {
+	margin-top: 50px;
+	position: relative;
+}
+
+.profile .row .col-xl-9 .experience .inner-box h2 {
+	font-weight: 800;
+}
+
+.profile .row .col-xl-9 .experience .inner-box h3 {
+	color:#6c757d;
+}
+
+.profile .row .col-xl-9 .experience .inner-box p {
+	color:#6c757d;
+}
+
+.profile .row .col-xl-9 .experience .inner-box .box .inner-year {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 22px;
+	color: #BD5D38;
+}
+
+
+.profile .row .col-xl-9 .education .inner-title {
+	font-size: 50px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.profile .row .col-xl-9 .education .inner-box .box {
+	margin-top: 50px;
+	position: relative;
+}
+
+.profile .row .col-xl-9 .education .inner-box h2 {
+	font-weight: 800;
+}
+
+.profile .row .col-xl-9 .education .inner-box h3 {
+	color:#6c757d;
+}
+
+.profile .row .col-xl-9 .education .inner-box .inner-span {
+	font-size: 20px;
+	color:#6c757d;
+}
+
+.profile .row .col-xl-9 .education .inner-box .box .inner-year {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 22px;
+	color: #BD5D38;
+}
+
+.profile .row .col-xl-9 .skill .inner-title {
+	font-size: 60px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.profile .row .col-xl-9 .skill .inner-tool {
+	margin: 50px 0;
+}
+
+.profile .row .col-xl-9 .skill .inner-tool span {
+	font-size: 30px;
+	color: #6c757d;
+	font-weight: 600;
+}
+
+.profile .row .col-xl-9 .skill .dev-icons svg {
+	height: 50px;
+	margin: 9px 5px;
+}
+
+.profile .row .col-xl-9 .skill .inner-social {
+	display: flex;
+	flex-direction: column;
+}
+
+.profile .row .col-xl-9 .skill .inner-social .work {
+	font-size: 30px;
+	color:#6c757d;
+	font-weight: 600;
+}
+
+.profile .row .col-xl-9 .skill .inner-social .inner-icon {
+	font-size: 22px;
+	color: #6c757d;
+}
+
+.profile .row .col-xl-9 .skill .inner-social .inner-icon i {
+	margin-right: 5px;
+}
+
+.interests .inner-title {
+	font-weight: 800;
+	font-size: 60px;
+	margin-bottom: 50px;
+}
+
+.interests p {
+	font-size: 24px;
+	color:#6c757d;
+}
+
+.awards .inner-title{
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+
+.awards .inner-box .box{
+	color:#6c757d;
+	font-size: 24px;
+}
+
+.awards .inner-box .box i {
+	margin-right: 5px;
+}
