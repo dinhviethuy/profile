@@ -129,6 +129,7 @@ body {
 .profile .row .col-xl-9 .experience .inner-title {
 	font-size: 50px;
 	font-weight: 800;
+	text-transform: uppercase;
 }
 
 .profile .row .col-xl-9 .experience .inner-box .box {
@@ -234,6 +235,7 @@ body {
 	font-weight: 800;
 	font-size: 60px;
 	margin-bottom: 50px;
+	text-transform: uppercase;
 }
 
 .interests p {
