@@ -385,7 +385,7 @@ body {
 }
 
 @media (max-width: 1200px) { 
-	.profile .row .col-xl-9 {
+	.profile .row .inner-content {
 		position: relative;
 		top:  100px;
 	}
