@@ -638,3 +638,8 @@ body {
 	}
 }
 
+@media (max-width: 368px) {
+	.experience .inner-box span {
+		font-size: 35px;
+	}
+}
