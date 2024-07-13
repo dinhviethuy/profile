@@ -123,7 +123,20 @@ body {
 .profile .row .col-md-9 {
 	max-width: 100%;
 	width: 100%;
-} 
+}
+
+.education .inner-box .box {
+	position: relative;
+}
+
+.education .inner-box .box .inner-content-box {
+	width: 75%;
+	margin-right: 3px;
+}
+
+.education .inner-box .box .inner-year {
+	width: 20%;
+}
 
 .col-lg-9, .inner-content{
 	max-width: 100%;
