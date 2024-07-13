@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@90;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+DK+Uloopet:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 html {
 	scroll-behavior: smooth;
@@ -18,6 +21,10 @@ a {
 	font-family: "Saira Extra Condensed", sans-serif;
 }
 
+p {
+	font-family: "Playwrite DK Uloopet", cursive;
+}
+
 body {
 	margin: 0;
 }
@@ -29,8 +36,14 @@ body {
 	margin: 0;
 }
 
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .colamd-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+	padding: 0;
+}
+
 .row { 
 	width: 100%;
+	margin: 0;
+	justify-content: center;
 }
 .profile .row .col-xl-3 {
 	background-color: #BD5D38;
@@ -79,12 +92,68 @@ body {
 	justify-content: center;
 	padding-left: 40px;
 	height: 100vh;
+	width: 100%;
+}
+
+.profile .row .col-xl-3 a li {
+	text-align: center;
+}
+.inner-content {
+	width: 100%;
+}
+.profile .row .col-xl-9 .inner-contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile .row .col-xl-9 .about .inner-desc {
+	text-align: center;
+}
+.about {
+	width: 100%;
+}
+
+.profile .row .col-xl-9 {
+	max-width: 100%;
+	width: 100%;
+}
+
+.profile .row .col-md-9 {
+	max-width: 100%;
+	width: 100%;
+} 
+
+.col-lg-9, .inner-content{
+	max-width: 100%;
+	width: 100%;
+}
+.about-100 .about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.profile .row .col-xl-9 .name {
+	margin-bottom: 25px;
+}
+
+.experience .inner-box {
+	display:flex;
+	justify-content: center;
+}
+
+.experience .inner-box span {
+	font-size: 80px; font-weight: 700;
+	color:#BD5D38;
 }
 
 .profile .row .col-xl-9 .name h2{
 	display: inline;
 	font-weight: 800;
-	font-size: 90px;
+	font-size: 70px;
+	font-family: "Playwrite BE VLG", cursive;
 }
 
 .profile .row .col-xl-9 .name .lastname {
@@ -95,7 +164,7 @@ body {
 .profile .row .col-xl-9 .inner-contact {
 	font-weight: 500;
 	font-size: 24px;
-	margin-bottom: 3rem !important;
+	margin-bottom: 1.5rem !important;
 }
 .profile .row .col-xl-9 .inner-contact a {
 	color:#BD5D38;
@@ -107,9 +176,65 @@ body {
 	width: 70%
 }
 
-.profile .row .col-xl-9 .inner-social {
-	width: 90%;
+.profile .row .col-xl-9 {
+	padding: 0;
+}
+
+.profile .row .col-xl-9 .experience {
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-height: 100%;
+}
+
+.profile .row .col-xl-9 .education{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.profile .row .col-xl-9 .skill{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.profile .row .col-xl-9 .interests{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.profile .row .col-xl-9 .awards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.inner-box {
+	width: 90%;
+}
+
+.profile .row .col-xl-9 .name .lastname {
+	padding: 0;
+}
+
+.interests p {
+	width: 90%;
+}
+
+.profile .row .col-xl-9 .skill .inner-social {
+	width: 90%;
+}
+.profile .row .col-xl-9 .inner-social {
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 .profile .row .col-xl-9 .inner-social a {
@@ -273,6 +398,10 @@ body {
 		justify-content: space-around;
 	}
 
+	.profile .row .col-xl-3 {
+		box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+	}
+
 	.profile .row .col-xl-3 .inner-image {
 		margin: 20px 0;
 	}
@@ -307,6 +436,9 @@ body {
 }
 
 @media (max-width: 992px) {
+	.col-md-12 {
+		padding: 0 40px;
+	}
 	.profile .row .col-xl-3 .inner-menu {
 		visibility: hidden;
 	}
@@ -411,39 +543,39 @@ body {
 	.profile .row .col-xl-9 .experience .inner-box .box {
 		margin-top: 15px;
 	}
+
+	.profile .row .col-xl-9 .name  h2 {
+		font-size: 35px;
+	}
 }
 
-
 @media (max-width: 400px) {
-	.profile .row .col-xl-9 .name h2 {
-		font-size: 40px;
-	}
-
-	.profile .row .col-xl-9 .inner-contact {
-		font-size: 10px;
-	} 
-
 	.profile .row .col-xl-9 .experience .inner-title {
-		font-size: 20px;
-	}
-
-	.profile .row .col-xl-9 .experience .inner-box h2 {
-		font-size: 15px;
-	}
-
-	.profile .row .col-xl-9 .experience .inner-box h3 {
-		font-size: 14px;
+		font-size: 30px;
 	}
 
 	.profile .row .col-xl-9 .experience .inner-box p {
 		font-size: 14px;
 	}
 
-	.profile .row .col-xl-9 .experience .inner-box .box .inner-year {
-		font-size: 10px;
+	.profile .row .col-xl-9 .experience .inner-box h2 {
+		font-size: 18px;
 	}
+
+	.profile .row .col-xl-9 .experience .inner-box h3 {
+		font-size: 16px;
+	}
+
+	.profile .row .col-xl-9 .education .inner-title {
+		font-size: 30px;
+	}
+	.profile .row .col-xl-9 .skill .inner-title {
+		font-size: 30px;
+	}
+
 	.interests .inner-title {
-		font-size: 20px;
+		font-size: 30px;
+		margin-bottom: 30px;
 	}
 
 	.interests p {
@@ -451,16 +583,9 @@ body {
 	}
 
 	.awards .inner-title {
-		font-size: 20px;
+		font-size: 30px;
 	}
 
-	.awards .inner-box .box {
-		font-size: 15px;
-	}
-
-	.profile .row .col-xl-9 .skill .inner-title {
-		font-size: 20px;
-	}
 	.profile .row .col-xl-9 .skill .inner-tool span {
 		font-size: 20px;
 	}
@@ -473,24 +598,23 @@ body {
 		font-size: 14px;
 	}
 
-	.profile .row .col-xl-9 .education .inner-title {
-		font-size: 20px;
-	}
-
 	.profile .row .col-xl-9 .education .inner-box h2 {
-		font-size: 20px;
-		width: 70%;
+		font-size: 18px;
 	}
 
 	.profile .row .col-xl-9 .education .inner-box .box .inner-year {
-		font-size: 14px;
+		font-size: 12px;
 	}
 
-	.profile .row .col-xl-9 .inner-desc {
-		font-size: 14px;
+	.profile .row .col-xl-9 .education .inner-box .inner-span {
+		font-size: 15px;
 	}
 
-	.profile .row .col-xl-9 .inner-social a {
-		font-size: 30px;
+	.profile .row .col-xl-9 .experience .inner-box .box .inner-year {
+		font-size: 12px;
+	}
+	.profile .row .col-xl-9 .inner-contact {
+		text-align: center;
 	}
 }
+
