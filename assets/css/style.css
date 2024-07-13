@@ -547,6 +547,9 @@ body {
 	.profile .row .col-xl-9 .name  h2 {
 		font-size: 35px;
 	}
+	.experience .inner-box span {
+		font-size: 50px;
+	}
 }
 
 @media (max-width: 400px) {
