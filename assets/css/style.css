@@ -86,14 +86,13 @@ body {
 }
 
 .profile .row .col-xl-9 {
-	position:relative;
+	position:static;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	padding-left: 40px;
 	height: 100vh;
 	width: 100%;
-	top: 100px;
 }
 
 .profile .row .col-xl-3 a li {
@@ -385,7 +384,11 @@ body {
 	margin-right: 5px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px) { 
+	.profile .row .col-xl-9 {
+		position: relative;
+		top:  100px;
+	}
 	.profile .row .col-lg-12 {
 		padding: 0;
 	}
