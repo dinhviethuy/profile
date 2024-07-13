@@ -252,6 +252,8 @@ body {
 	flex-wrap: wrap;
 }
 
+
+
 .profile .row .col-xl-9 .inner-social a {
 	padding: 0 9px;
 	font-size: 60px;
@@ -262,10 +264,13 @@ body {
 	color:#BD5D38;
 }
 
+.profile .row .col-xl-3 .inner-menu a:hover{
+	text-decoration: none;
+}
+
 .profile .row .col-xl-3 .inner-menu a:focus{
 	color: #fff;
 }
-
 .profile .row .col-xl-9 .experience .inner-title {
 	font-size: 50px;
 	font-weight: 800;
