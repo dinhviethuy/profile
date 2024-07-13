@@ -161,6 +161,7 @@ body {
 .experience .inner-box span {
 	font-size: 80px; font-weight: 700;
 	color:#BD5D38;
+	text-align: center;
 }
 
 .profile .row .col-xl-9 .name h2{
@@ -643,3 +644,4 @@ body {
 		font-size: 35px;
 	}
 }
+
